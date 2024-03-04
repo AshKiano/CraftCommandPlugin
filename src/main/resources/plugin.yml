@@ -1,0 +1,9 @@
+name: CraftCommandPlugin
+version: '${project.version}'
+main: com.ashkiano.craftcommandplugin.CraftCommandPlugin
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  craft:
+    description: Opens a crafting table interface.
+    usage: /<command>
