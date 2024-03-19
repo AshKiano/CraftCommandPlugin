@@ -10,7 +10,7 @@ public class CraftCommandPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         Metrics metrics = new Metrics(this, 21266);
-        getLogger().info("CraftCommandPlugin has been enabled!");
+        this.getLogger().info("Thank you for using the CraftCommandPlugin plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
